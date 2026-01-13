@@ -23,6 +23,7 @@ public class PlayerController {
     public String addPlayer(@RequestBody Player newPlayer){
         repository.getPlayers().add(newPlayer);
         return "Jogador" + newPlayer.getNome() + "criado com sucesso!";
+
     }
 
 
