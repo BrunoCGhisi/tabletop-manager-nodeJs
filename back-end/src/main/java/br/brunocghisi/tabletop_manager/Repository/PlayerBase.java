@@ -17,6 +17,8 @@ public class PlayerBase {
 
         Player joao = new Player(4, "Joao");
         playerList.add(joao);
+        Player bettina = new Player(5, "Bettina");
+        playerList.add(bettina);
     }
 
     public List<Player> getPlayers() {

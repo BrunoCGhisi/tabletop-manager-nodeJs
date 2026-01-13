@@ -1,0 +1,20 @@
+:root {
+    --cor-primaria : #739072;
+    --cor-secundaria: #3A4D39;
+    --cor-terceira: #ECE3CE;
+    --teste: yellow;
+    --fonte-padrao: 'OpenSans-SemiBold';
+}
+
+body {
+    background-color: var(--cor-primaria);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: -ms-flexbox;
+    background-color: #ffff00;
+    color: var(#ff0000);
+}
+
