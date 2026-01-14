@@ -1,7 +1,7 @@
 public class System {
     private Integer id
     private String name
-}
+
 
 public System() {}
 
@@ -24,4 +24,6 @@ public void setId(Integer id) {
 
 public void setNome(String nome) {
     this.nome = nome
+}
+
 }

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="front end player.js adjust&#10;- style adjust">
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Repository/SystemBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/Mesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/js/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/System.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +120,9 @@
       <workItem from="1768333733521" duration="1319000" />
       <workItem from="1768335799297" duration="340000" />
       <workItem from="1768391241016" duration="602000" />
+      <workItem from="1768410842913" duration="37000" />
+      <workItem from="1768410897671" duration="161000" />
+      <workItem from="1768421538657" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="TabletopManager boot-strap init">
       <option name="closed" value="true" />
