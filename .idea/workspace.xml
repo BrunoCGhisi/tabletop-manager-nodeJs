@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="ReadMe">
+    <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="front end&#10;- html init&#10;- style init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +117,8 @@
       <workItem from="1768321850479" duration="1387000" />
       <workItem from="1768333277738" duration="443000" />
       <workItem from="1768333733521" duration="1319000" />
+      <workItem from="1768335799297" duration="340000" />
+      <workItem from="1768391241016" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="TabletopManager boot-strap init">
       <option name="closed" value="true" />
@@ -156,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768323999003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="front end&#10;- html init&#10;- style init">
+      <option name="closed" value="true" />
+      <created>1768336051702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768336051703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +202,7 @@
     <MESSAGE value="Class Player &#10;&#10;- Model&#10;- Controller&#10;- Repository" />
     <MESSAGE value="ReadMe" />
     <MESSAGE value="Front-End Player&#10;- rendering the players data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front-End Player&#10;- rendering the players data" />
+    <MESSAGE value="front end&#10;- html init&#10;- style init" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end&#10;- html init&#10;- style init" />
   </component>
 </project>

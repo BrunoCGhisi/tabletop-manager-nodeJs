@@ -1,20 +1,65 @@
 :root {
     --cor-primaria : #739072;
     --cor-secundaria: #3A4D39;
-    --cor-terceira: #ECE3CE;
-    --teste: yellow;
-    --fonte-padrao: 'OpenSans-SemiBold';
+    --cor-terceira: #e6e6e6;
+    --fonte-padrao: 'Arial';
 }
 
-body {
-    background-color: var(--cor-primaria);
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
-    display: -ms-flexbox;
-    background-color: #ffff00;
-    color: var(#ff0000);
+    display: flex;
+    height: 10%;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-padrao), serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    max-width: 100%;
+    background-color:var(--cor-terceira);;
+    font-family: var(--fonte-padrao), serif;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.main-title {
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 2px solid var(--cor-secundaria);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.footer {
+    display: flex;
+    height: 5%;
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-padrao), serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
