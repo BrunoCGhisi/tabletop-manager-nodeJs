@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="front end styles&#10;- template in html">
+    <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="front end player.js adjust&#10;- style adjust">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Controllers/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Controllers/PlayerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768396815967</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="front end player.js adjust&#10;- style adjust">
+      <option name="closed" value="true" />
+      <created>1768399337501</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768399337501</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +220,7 @@
     <MESSAGE value="Front-End Player&#10;- rendering the players data" />
     <MESSAGE value="front end&#10;- html init&#10;- style init" />
     <MESSAGE value="front end styles&#10;- template in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end styles&#10;- template in html" />
+    <MESSAGE value="front end player.js adjust&#10;- style adjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end player.js adjust&#10;- style adjust" />
   </component>
 </project>
