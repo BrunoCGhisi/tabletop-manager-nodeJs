@@ -12,14 +12,6 @@ public class Player {
         this.nome = nome;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public Integer getId() {
         return id;
     }
@@ -28,6 +20,11 @@ public class Player {
         return nome;
     }
 
+    public void setId(Integer id) {
+        this.id = id;}
+
+    public void setNome(String nome) {
+        this.nome = nome;}
 
 }
 

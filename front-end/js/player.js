@@ -13,10 +13,10 @@ const renderData = (data) => {
     const container = document.getElementById('players-list')
     container.innerHTML = '';
 
-    const itensHtml = data.map((player) => {
+    const playerList = data.map((player) => {
         return `<li>Id: ${player.id}<br> Nome: ${player.nome}<br><br></li>`
     })
 
-    container.innerHTML = `<ul>${itensHtml.join('')}</ul>`;};
+    container.innerHTML = `<ul>${playerList.join('')}</ul>`;};
 
 searchPlayers();
