@@ -14,7 +14,7 @@ const renderData = (data) => {
     container.innerHTML = '';
 
     const itensHtml = data.map((player) => {
-        return `<li>${player.id}: ${player.nome}</li>`
+        return `<li>Id: ${player.id}<br> Nome: ${player.nome}<br><br></li>`
     })
 
     container.innerHTML = `<ul>${itensHtml.join('')}</ul>`;};
