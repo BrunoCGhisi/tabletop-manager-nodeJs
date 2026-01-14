@@ -47,10 +47,9 @@ html, body {
 .main-content {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
 
 }
-
-
 
 .footer {
     display: flex;

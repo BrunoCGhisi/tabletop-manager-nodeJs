@@ -1,8 +1,8 @@
-const url_api = 'http://localhost:8080/player'
+const url_api = 'http://localhost:8080/tabletop-manager'
 
 const searchPlayers = () => {
     fetch(url_api)
-        .then(ren => res.json())
+        .then(res => res.json())
         .then(data => {
             renderData(data)
         })
@@ -10,14 +10,13 @@ const searchPlayers = () => {
 };
 
 const renderData = (data) => {
-    const container = document.getElementById('container')
+    const container = document.getElementById('players-list')
     container.innerHTML = '';
 
-    const itenHtml = data.map((player) => {
+    const itensHtml = data.map((player) => {
         return `<li>${player.id}: ${player.name}</li>`
     })
 
-    container.innerHTML = itensHtml.join('');
-};
+    container.innerHTML = `<ul>${itensHtml.join('')}</ul>`;};
 
 searchPlayers();

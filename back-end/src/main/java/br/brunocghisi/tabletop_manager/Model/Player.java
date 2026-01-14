@@ -4,6 +4,9 @@ public class Player {
     private Integer id;
     private String nome;
 
+    public Player() {
+    }
+
     public Player(Integer id, String nome) {
         this.id = id;
         this.nome = nome;
