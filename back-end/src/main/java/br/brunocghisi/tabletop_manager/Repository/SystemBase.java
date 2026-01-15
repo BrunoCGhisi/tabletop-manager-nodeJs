@@ -1,4 +1,10 @@
-import br.brunocghisi.tabletop_manager.ModelP;
+package br.brunocghisi.tabletop_manager.Repository;
+
+import br.brunocghisi.tabletop_manager.Model.System;
+import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Repository
 public class SystemBase{
@@ -8,9 +14,6 @@ public class SystemBase{
         systemList.add(new System(1, "Dungeons & Dragons"));
         systemList.add(new System(2, "Assimilação"));
         systemList.add(new System(3, "Ordem Paranormal"));
-
-
-
 
     }
 }

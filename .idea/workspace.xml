@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="front end player.js adjust&#10;- style adjust">
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Repository/SystemBase.java" afterDir="false" />
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/tabletop-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tabletop-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/br/brunocghisi/tabletop_manager/Model/System.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,81 +24,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
+    <projectState path="$PROJECT_DIR$/back-end">
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BrunoCGhisi&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BrunoCGhisi/tabletop-manager-spring-boot.git&quot;,
-    &quot;accountId&quot;: &quot;6e4ad828-6aca-4e24-87bc-5b6d324c8d87&quot;
-  }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="38ARmISG2HPQQOlFyPwC7qrkAtn" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="38JBxLxvTO58ffzobAax472eSLX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TabletopManagerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuário/Documents/Bruno/Personal/Estudo/Projetinhos/tabletop-manager&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Usuário/Documents/Bruno/Personal/Estudo/Projetinhos/tabletop-manager",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Usuário\Documents\Bruno\Personal\Estudo\Projetinhos\tabletop-manager\front-end\js" />
-      <recent name="C:\Users\Usuário\Documents\Bruno\Personal\Estudo\Projetinhos\tabletop-manager" />
-      <recent name="C:\Users\Usuário\Documents\Bruno\Personal\Estudo\Projetinhos\tabletop-manager\back-end" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TabletopManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="tabletop-manager" />
+      <module name="br.brunocghisi.tabletop-manager.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.brunocghisi.tabletop_manager.TabletopManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,143 +85,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="72c9d02b-3797-4ee9-8a29-74abd874e6ad" name="Changes" comment="" />
-      <created>1768240547106</created>
+      <changelist id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="" />
+      <created>1768508038926</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768240547106</updated>
-      <workItem from="1768240548818" duration="6107000" />
-      <workItem from="1768303238577" duration="6542000" />
-      <workItem from="1768315821353" duration="14000" />
-      <workItem from="1768315845030" duration="22000" />
-      <workItem from="1768321850479" duration="1387000" />
-      <workItem from="1768333277738" duration="443000" />
-      <workItem from="1768333733521" duration="1319000" />
-      <workItem from="1768335799297" duration="340000" />
-      <workItem from="1768391241016" duration="602000" />
-      <workItem from="1768410842913" duration="37000" />
-      <workItem from="1768410897671" duration="161000" />
-      <workItem from="1768421538657" duration="1269000" />
+      <updated>1768508038926</updated>
+      <workItem from="1768508040307" duration="182000" />
     </task>
-    <task id="LOCAL-00001" summary="TabletopManager boot-strap init">
-      <option name="closed" value="true" />
-      <created>1768244950046</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1768244950046</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Class Player &#10;&#10;- Model&#10;- Controller&#10;- Repository">
-      <option name="closed" value="true" />
-      <created>1768312208083</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1768312208083</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Class Player &#10;&#10;- Model&#10;- Controller&#10;- Repository">
-      <option name="closed" value="true" />
-      <created>1768322049592</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1768322049592</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ReadMe">
-      <option name="closed" value="true" />
-      <created>1768322154215</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1768322154215</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Front-End Player&#10;- rendering the players data">
-      <option name="closed" value="true" />
-      <created>1768323999002</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1768323999003</updated>
-    </task>
-    <task id="LOCAL-00006" summary="front end&#10;- html init&#10;- style init">
-      <option name="closed" value="true" />
-      <created>1768336051702</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1768336051703</updated>
-    </task>
-    <task id="LOCAL-00007" summary="front end styles&#10;- template in html">
-      <option name="closed" value="true" />
-      <created>1768396815967</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1768396815967</updated>
-    </task>
-    <task id="LOCAL-00008" summary="front end player.js adjust&#10;- style adjust">
-      <option name="closed" value="true" />
-      <created>1768399337501</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1768399337501</updated>
-    </task>
-    <task id="LOCAL-00009" summary="front end player.js working&#10;- name -&gt; nome">
-      <option name="closed" value="true" />
-      <created>1768400263544</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1768400263544</updated>
-    </task>
-    <task id="LOCAL-00010" summary="front end style adjust">
-      <option name="closed" value="true" />
-      <created>1768401267649</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1768401267649</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="TabletopManager boot-strap init" />
-    <MESSAGE value="Class Player &#10;&#10;- Model&#10;- Controller&#10;- Repository" />
-    <MESSAGE value="ReadMe" />
-    <MESSAGE value="Front-End Player&#10;- rendering the players data" />
-    <MESSAGE value="front end&#10;- html init&#10;- style init" />
-    <MESSAGE value="front end styles&#10;- template in html" />
-    <MESSAGE value="front end player.js adjust&#10;- style adjust" />
-    <MESSAGE value="front end player.js working&#10;- name -&gt; nome" />
-    <MESSAGE value="front end style adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end style adjust" />
   </component>
 </project>
