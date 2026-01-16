@@ -1,20 +1,21 @@
-import { playerRenderData } from "./renders/playerRender.js";
 import { getPlayerData } from "./services/playerService.js";
+import { playerRenderData } from "./renders/playerRender.js";
 
-async function init() {
-    console.log("Iniciando aplicação..."); // Adicione esse log para testar
-    const jogadores = await getPlayerData();
+import { getSystemData } from "./services/systemService";
+import { systemRenderData } from "./renders/systemRender";
 
-    if (jogadores) {
-        playerRenderData(jogadores);
-    } else {
-        console.log("Nenhum jogador encontrado ou lista vazia.");
-    }
+async function app() {
+    const [jogadores, sistemas] = await Promise.all([
+        getPlayerData(),
+        getSystemData()
+    ]);
 
+    if (jogadores) playerRenderData(jogadores);
+    if (sistemas) systemRenderData(sistemas);
 
 }
 
-init();
+app();
 
 
 

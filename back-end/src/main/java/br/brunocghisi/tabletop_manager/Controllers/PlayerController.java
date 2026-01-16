@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tabletop-manager")
+@RequestMapping("/player")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PlayerController {
 

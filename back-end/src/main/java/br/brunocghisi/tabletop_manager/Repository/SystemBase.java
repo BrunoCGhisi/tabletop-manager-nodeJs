@@ -16,4 +16,6 @@ public class SystemBase{
         systemList.add(new System(3, "Ordem Paranormal"));
 
     }
+
+    public List<System> getSystemList() {return systemList;}
 }
