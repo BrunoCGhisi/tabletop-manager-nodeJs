@@ -1,2 +1,2 @@
-export * from './playerRender'
-export * from './systemRender'
+export * from './playerRender.js'
+export * from './systemRender.js'

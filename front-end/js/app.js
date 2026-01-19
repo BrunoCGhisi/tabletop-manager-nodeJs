@@ -1,8 +1,5 @@
-import { getPlayerData } from "./services/playerService.js";
-import { playerRenderData } from "./renders/playerRender.js";
-
-import { getSystemData } from "./services/systemService";
-import { systemRenderData } from "./renders/systemRender";
+import { getPlayerData, getSystemData } from "./services";
+import { playerRenderData, systemRenderData } from "./renders";
 
 async function app() {
     const [jogadores, sistemas] = await Promise.all([

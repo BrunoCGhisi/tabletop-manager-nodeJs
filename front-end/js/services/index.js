@@ -1,2 +1,2 @@
-export * from './playerService';
-export * from './systemService';
+export * from './playerService.js';
+export * from './systemService.js';
