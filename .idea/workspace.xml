@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front exhibition bug correction&#10;- With 2 promises happening in the same fetch, bug appears.&#10;- Use promise.all&#10;- using library for index of Renders and Services. Simplifying the imports">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/js/services/playerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/services/playerService.js" afterDir="false" />
-    </list>
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="transitioning to NODE.js!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +36,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="spring-boot-version" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="spring-boot-version" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -119,7 +134,7 @@
       <workItem from="1768827229855" duration="5749000" />
       <workItem from="1768842642381" duration="1759000" />
       <workItem from="1768847870861" duration="10000" />
-      <workItem from="1768907720966" duration="2030000" />
+      <workItem from="1768907720966" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -161,17 +176,49 @@
       <option name="project" value="LOCAL" />
       <updated>1768831356106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="transitioning to NODE.js!">
+      <option name="closed" value="true" />
+      <created>1768915086712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768915086712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="spring-boot-version" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="back end bug correction&#10;- System model imports&#10;- System controller" />
     <MESSAGE value="front end structure formated&#10;- renderHTML are in one file&#10;- methods are in one file" />
     <MESSAGE value="front &amp; back end system add&#10;- to adjust" />
     <MESSAGE value="front exhibition bug correction&#10;- With 2 promises happening in the same fetch, bug appears.&#10;- Use promise.all&#10;- using library for index of Renders and Services. Simplifying the imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="front exhibition bug correction&#10;- With 2 promises happening in the same fetch, bug appears.&#10;- Use promise.all&#10;- using library for index of Renders and Services. Simplifying the imports" />
+    <MESSAGE value="transitioning to NODE.js!" />
+    <option name="LAST_COMMIT_MESSAGE" value="transitioning to NODE.js!" />
   </component>
 </project>
