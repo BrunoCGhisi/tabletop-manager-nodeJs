@@ -1,14 +1,9 @@
-const { createServer } = require('node:http');
+const express = require('express');
+const playerRoutes = require('./src/routes/playerRoute');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const app = express();
 
-const app = createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
-});
+app.use(express.json());
+app.use('/player', playerRoutes);
 
-app.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
+module.exports = app;
