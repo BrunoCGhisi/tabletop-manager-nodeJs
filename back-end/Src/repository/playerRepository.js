@@ -1,4 +1,4 @@
-const Player = require('../model/Player');
+const Player = require('../models/Player');
 
 class PlayerRepository {
     constructor() {
@@ -12,13 +12,9 @@ class PlayerRepository {
         ];
     }
 
-    getPlayers(){
-        return this.players
-    }
+    getPlayers(){ return this.players; }
 
-    addPlayer(){
-        this.players.push(player);
-    }
+    addPlayer(){ this.players.push(player); }
 }
 
 module.exports = new PlayerRepository();

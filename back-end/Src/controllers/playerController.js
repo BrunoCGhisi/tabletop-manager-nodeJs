@@ -1,5 +1,5 @@
 const PlayerRepository = require('../repository/playerRepository');
-const Player = require('../model/player');
+const Player = require('../models/player');
 
 class PlayerController {
     getPlayers(req, res) {
@@ -7,8 +7,7 @@ class PlayerController {
     }
 
     addPlayer(req, res) {
-        const { id, name} = req.body;
-
+        const { id, name } = req.body;
         const newPlayer = new Player(id, name)
         PlayerRepository.addPlayer(newPlayer)
 
