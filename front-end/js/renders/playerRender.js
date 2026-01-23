@@ -4,7 +4,7 @@ export const playerRenderData = (data) => {
     container.innerHTML = '';
 
     const playerList = data.map((player) => {
-        return `<li>Id: ${player.id}<br> Nome: ${player.nome}<br><br></li>`
+        return `<li>Id: ${player.id}<br> Nome: ${player.name}<br><br></li>`
     })
 
     container.innerHTML = `<ul>${playerList.join('')}</ul>`;};

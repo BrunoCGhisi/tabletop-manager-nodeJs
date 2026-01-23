@@ -1,4 +1,4 @@
-const url_api = 'http://localhost:8080/player'
+const url_api = 'http://127.0.0.1:3000/player'
 
 export async function getPlayerData() {
     try{

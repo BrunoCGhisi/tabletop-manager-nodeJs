@@ -1,4 +1,4 @@
-const url_api = 'http://localhost:8080/system'
+const url_api = 'http://127.0.0.1:3000/system'
 
 export async function getSystemData() {
     try{
