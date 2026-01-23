@@ -33,6 +33,12 @@ html, body {
     justify-content: space-around;
 }
 
+.main-container {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+}
+
 .main-title {
     display: flex;
     padding-top: 20px;
