@@ -14,7 +14,7 @@ class PlayerRepository {
 
     getPlayers(){ return this.players; }
 
-    addPlayer(){ this.players.push(player); }
+    addPlayer(player){ this.players.push(player); }
 }
 
 module.exports = new PlayerRepository();

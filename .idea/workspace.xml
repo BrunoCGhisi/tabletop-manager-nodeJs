@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="Front end html/css adjust &#10;- new class main container&#10;- maxWidth">
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="Front end html/css adjust &#10;- new scroll style&#10;- new border style&#10;- to add forms POST">
+      <change afterPath="$PROJECT_DIR$/front-end/js/handlers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/js/handlers/playerHandler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/playerRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/playerRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/js/renders/playerRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/renders/playerRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/js/renders/systemRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/renders/systemRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/services/playerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/services/playerService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +153,7 @@
       <workItem from="1769001830583" duration="7815000" />
       <workItem from="1769081193339" duration="5836000" />
       <workItem from="1769103923411" duration="4622000" />
-      <workItem from="1769170270909" duration="6590000" />
+      <workItem from="1769170270909" duration="11742000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -239,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769180361902</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Front end html/css adjust &#10;- new scroll style&#10;- new border style&#10;- to add forms POST">
+      <option name="closed" value="true" />
+      <created>1769188328882</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769188328882</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +291,7 @@
     <MESSAGE value="back-end system Structure&#10;*System:&#10;- Get requisition working&#10;- Routes&#10;- Repository&#10;- Model" />
     <MESSAGE value="Front end &amp; back end CORS &amp; Url adjust&#10;- class.nome -&gt; class.name&#10;- Url to new back end&#10;- Cors in back end adjust" />
     <MESSAGE value="Front end html/css adjust &#10;- new class main container&#10;- maxWidth" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front end html/css adjust &#10;- new class main container&#10;- maxWidth" />
+    <MESSAGE value="Front end html/css adjust &#10;- new scroll style&#10;- new border style&#10;- to add forms POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front end html/css adjust &#10;- new scroll style&#10;- new border style&#10;- to add forms POST" />
   </component>
 </project>
