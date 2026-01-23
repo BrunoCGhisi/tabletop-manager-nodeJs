@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="Front end &amp; back end CORS &amp; Url adjust&#10;- class.nome -&gt; class.name&#10;- Url to new back end&#10;- Cors in back end adjust">
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="Front end html/css adjust &#10;- new class main container&#10;- maxWidth">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/renders/playerRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/renders/playerRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/renders/systemRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/renders/systemRender.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +149,7 @@
       <workItem from="1769001830583" duration="7815000" />
       <workItem from="1769081193339" duration="5836000" />
       <workItem from="1769103923411" duration="4622000" />
-      <workItem from="1769170270909" duration="2631000" />
+      <workItem from="1769170270909" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -228,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769179739922</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Front end html/css adjust &#10;- new class main container&#10;- maxWidth">
+      <option name="closed" value="true" />
+      <created>1769180361902</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769180361902</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +278,7 @@
     <MESSAGE value="back-end player Structure&#10;*Player:&#10;- Get requisition working&#10;- Routes&#10;- Repository&#10;- Model" />
     <MESSAGE value="back-end system Structure&#10;*System:&#10;- Get requisition working&#10;- Routes&#10;- Repository&#10;- Model" />
     <MESSAGE value="Front end &amp; back end CORS &amp; Url adjust&#10;- class.nome -&gt; class.name&#10;- Url to new back end&#10;- Cors in back end adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front end &amp; back end CORS &amp; Url adjust&#10;- class.nome -&gt; class.name&#10;- Url to new back end&#10;- Cors in back end adjust" />
+    <MESSAGE value="Front end html/css adjust &#10;- new class main container&#10;- maxWidth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front end html/css adjust &#10;- new class main container&#10;- maxWidth" />
   </component>
 </project>
