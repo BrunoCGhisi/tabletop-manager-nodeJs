@@ -4,7 +4,9 @@ export const systemRenderData = (data) => {
     container.innerHTML = '';
 
     const systemList = data.map((system) => {
-        return `<li  style="border-bottom: solid #3A4D39 1px; padding: 15px 0 1px 0">Id: ${system.id}<br> Nome: ${system.name}<br><br></li>`
+        return `<li  style="border-bottom: solid #3A4D39 1px; padding: 15px 5px 1px 0">
+            <Strong>Id:  </Strong> ${system.id}<br> 
+            <Strong>Nome:</Strong> ${system.name}<br><br></li>`
     })
 
-    container.innerHTML = `<ul >${systemList.join('')}</ul>`;};
+    container.innerHTML = `<label>${systemList.join('')}</label>`;};
