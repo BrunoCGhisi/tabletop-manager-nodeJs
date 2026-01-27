@@ -15,7 +15,6 @@ class PlayerController {
 
         const newPlayer = new Player(id, name)
         PlayerRepository.addPlayer(newPlayer)
-
         res.status(201).json(newPlayer);
     }
 }

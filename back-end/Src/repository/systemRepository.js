@@ -7,7 +7,6 @@ class SystemRepository {
             new System(2, "Ordem Paranormal"),
             new System(3, "D&D 5e"),
             new System(4, "GURPS"),
-
         ];
     }
 
