@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="Front end &amp; back end POST &#10;Back end:&#10;- System controller bug correction&#10;- New console and verification&#10;Front-end:&#10;- Handler bug correction. Form name" />
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="back end structure">
+      <change beforePath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/routes/systemRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/routes/systemRoute.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +151,7 @@
       <workItem from="1769425866919" duration="1926000" />
       <workItem from="1769433651723" duration="603000" />
       <workItem from="1769435402597" duration="3000" />
-      <workItem from="1769516443631" duration="3982000" />
+      <workItem from="1769516443631" duration="7391000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -269,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769524475378</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="back end structure">
+      <option name="closed" value="true" />
+      <created>1769525142224</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1769525142224</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +325,7 @@
     <MESSAGE value="Front end add player working&#10;- player handler&#10;- new type form" />
     <MESSAGE value="Front end POST AddSystem:&#10;- systemHandler.js form add&#10;- systemService.js function Add" />
     <MESSAGE value="Front end &amp; back end POST &#10;Back end:&#10;- System controller bug correction&#10;- New console and verification&#10;Front-end:&#10;- Handler bug correction. Form name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front end &amp; back end POST &#10;Back end:&#10;- System controller bug correction&#10;- New console and verification&#10;Front-end:&#10;- Handler bug correction. Form name" />
+    <MESSAGE value="back end structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="back end structure" />
   </component>
 </project>

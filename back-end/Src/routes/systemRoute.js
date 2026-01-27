@@ -16,4 +16,10 @@ router.post('/',(
     SystemController.addSystem(req, res);
 });
 
+router.put('/',(
+    req,
+    res) => {
+    SystemController.updateSystem(req, res);
+});
+
 module.exports = router;

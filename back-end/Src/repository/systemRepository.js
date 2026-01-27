@@ -1,4 +1,5 @@
 const System = require("../models/System");
+const {getSystemData} = require("../../../front-end/js/services");
 
 class SystemRepository {
     constructor(){
@@ -13,6 +14,16 @@ class SystemRepository {
     getSystems(){ return this.systems; }
 
     addSystem(system){ this.systems.push(system); }
+
+    alterSystem(id, name){
+        const system = this.systems.find(s => s.id === id);
+        if (!system) {
+            throw new Error(`${id} not found`);
+        }
+
+        system.name = name;
+        return system;
+    }
 
 }
 
