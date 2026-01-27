@@ -13,3 +13,11 @@ export async function getSystemData() {
         return [];
     }
 }
+
+export async function addSystem(system){
+    await fetch(url_api, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(system)
+    })
+}
