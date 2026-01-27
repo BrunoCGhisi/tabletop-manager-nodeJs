@@ -8,10 +8,15 @@ class PlayerController {
 
     addPlayer(req, res) {
         const { id, name } = req.body;
+
+        if (!id || !name) {
+            return res.status(400).json({ error: 'Id e nome são obrigatórios' });
+        }
+
         const newPlayer = new Player(id, name)
         PlayerRepository.addPlayer(newPlayer)
 
-        res.send(`Jogador ${name} criado com sucesso`);
+        res.status(201).json(newPlayer);
     }
 }
 

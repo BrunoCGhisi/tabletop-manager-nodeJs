@@ -1,18 +1,19 @@
 import { getPlayerData, getSystemData } from "./services";
 import { playerRenderData, systemRenderData } from "./renders";
-import { registerPlayerHandler } from "./handlers";
+import { registerPlayerHandler, registerSystemHandler } from "./handlers";
 
 async function app() {
     registerPlayerHandler();
+    registerSystemHandler();
 
-    const [jogadores, sistemas] = await Promise.all([
+    const [players, systems] = await Promise.all([
         getPlayerData(),
         getSystemData()
 
     ]);
 
-    if (jogadores) playerRenderData(jogadores);
-    if (sistemas) systemRenderData(sistemas);
+    if (players) playerRenderData(players);
+    if (systems) systemRenderData(systems);
 
 }
 

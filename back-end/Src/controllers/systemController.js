@@ -8,10 +8,14 @@ class SystemController {
 
     addSystem(req, res) {
         const { id, name } = req.body;
+
+        if (!id || !name) {
+            return res.status(400).json({ error: 'Id e nome são obrigatórios' });
+        }
+
         const newSystem = new System(id, name)
         SystemRepository.addSystem(newSystem)
-
-        res.send(`Jogador ${name} criado com sucesso`);
+        res.status(201).json(newSystem);
     }
 }
 

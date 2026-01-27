@@ -8,8 +8,8 @@ export function registerSystemHandler() {
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        const id = document.getElementById("id").value.trim();
-        const name = document.getElementById("name").value.trim();
+        const id = document.getElementById("system-id").value.trim();
+        const name = document.getElementById("system-name").value.trim();
 
         if (!id || !name) return;
 
