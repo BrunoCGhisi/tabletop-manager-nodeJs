@@ -1,7 +1,7 @@
 <h1>Gerenciador de Mesas de RPG!</h1>
 <h2> Tecnologias: </h2>
-  Back End: JAVA Spring Boot <br>
-  Front End: JavaScript 
+  Back End: NodeJS <br>
+  Front End: HTML5, Css e JS 
 
 <h2> Sobre: </h2>
 
@@ -16,6 +16,5 @@
 
 <h2> Esclarecimentos: </h2>
 <p>
-  Já fazem alguns meses que comecei a estudar Java e JavaScript. Nesse momento, tomei a atitude de fazer meu primeiro projeto 100% sozinho, integrando um simples back end e front end. Gosto muito de mestrar sessões
-  de RPG de Mesa, então decidi misturar minhas duas paixões em um projeto muito ambicioso!
+  Já fazem alguns meses que comecei a estudar apronfundamente JavaScript. Nesse momento, tomei a atitude de fazer meu primeiro projeto 100% sozinho, integrando um simples back end e front end. Gosto muito de mestrar sessões de RPG de Mesa, então decidi misturar minhas duas paixões em um projeto muito ambicioso!
 </p>
