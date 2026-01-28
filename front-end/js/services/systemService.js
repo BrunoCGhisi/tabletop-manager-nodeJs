@@ -21,3 +21,11 @@ export async function addSystem(system){
         body: JSON.stringify(system)
     })
 }
+
+export async function updateSystem(system){
+    await fetch(url_api, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(system)
+    })
+}

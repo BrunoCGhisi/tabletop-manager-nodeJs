@@ -1,7 +1,7 @@
 import { addPlayer, getPlayerData } from '../services';
 import { playerRenderData } from '../renders';
 
-export function registerPlayerHandler() {
+export function formPlayerHandler()  {
     const form = document.getElementById('registerPlayer');
     if (!form) return;
 
