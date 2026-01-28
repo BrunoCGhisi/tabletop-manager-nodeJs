@@ -2,10 +2,7 @@ import { getPlayerData, getSystemData } from "./services";
 import { playerRenderData, systemRenderData } from "./renders";
 import {
     formPlayerHandler,
-    formRegisterHandler,
     formSystemHandler,
-    registerPlayerHandler,
-    registerSystemHandler
 } from "./handlers";
 
 async function app() {

@@ -1,4 +1,4 @@
-import {addSystem, getSystemData} from "../services";
+import {addSystem, getSystemData, updateSystem} from "../services";
 import {systemRenderData} from "../renders";
 
 export function formSystemHandler() {
@@ -19,7 +19,7 @@ export function formSystemHandler() {
         }
 
         if (action === "update") {
-            await up(name, id);
+            await updateSystem(name, id);
         }
 
         await addSystem({id, name});
