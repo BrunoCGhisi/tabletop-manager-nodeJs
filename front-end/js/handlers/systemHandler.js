@@ -12,19 +12,22 @@ export function formSystemHandler() {
         const id = document.getElementById("system-id").value.trim();
         const name = document.getElementById("system-name").value.trim();
 
-        if (!id || !name) return;
+        try {
+            if (action === "register") {
+                if (!name) throw new Error("Nome é obrigatório");
+                await addSystem({name});
+            }
 
-        if (action === "register") {
-            await addSystem({id, name});
+            if (action === "update") {
+                if (!id || !name) throw new Error("Id e nome são obrigatórios");
+                await updateSystem({id, name});
+            }
+            const updatedList = await getSystemData()
+            systemRenderData(updatedList)
+            form.reset();
         }
-
-        if (action === "update") {
-            await updateSystem({id, name});
+        catch (err) {
+            alert(err.message);
         }
-
-        const updatedList = await getSystemData()
-        systemRenderData(updatedList)
-
-        form.reset();
     })
 }

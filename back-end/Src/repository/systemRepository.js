@@ -14,18 +14,15 @@ class SystemRepository {
     getSystems(){ return this.systems; }
 
     addSystem(system){
-        const list = this.getSystems()
-        const verify = list.some(s => s.id === system.id)
-        if (!verify){
-            this.systems.push(system);
-        }
-        else{
-            throw new Error(`Id: ${system.id} already exist!`);
-        }
+        const lastId = this.systems.length;
+        system.id = (lastId + 1)
+        this.systems.push(system);
+
     }
 
     alterSystem(id, name){
-        const system = this.systems.find(s => s.id === id);
+        let idNumber = Number(id);
+        const system = this.systems.find(s => s.id === idNumber);
         if (!system) {
             throw new Error(`${id} not found`);
         }

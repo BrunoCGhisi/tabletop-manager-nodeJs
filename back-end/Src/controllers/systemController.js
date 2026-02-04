@@ -7,13 +7,13 @@ class SystemController {
     }
 
     addSystem(req, res) {
-        const { id, name } = req.body;
+        const { name } = req.body;
 
-        if (!id || !name) {
-            return res.status(400).json({ error: 'Id e nome são obrigatórios' });
+        if (!name) {
+            return res.status(400).json({ error: 'Nome são obrigatórios' });
         }
 
-        const newSystem = new System(id, name)
+        const newSystem = new System(null, name)
         SystemRepository.addSystem(newSystem)
         res.status(201).json(newSystem);
     }
