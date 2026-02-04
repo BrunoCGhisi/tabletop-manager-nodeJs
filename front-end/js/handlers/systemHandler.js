@@ -15,14 +15,12 @@ export function formSystemHandler() {
         if (!id || !name) return;
 
         if (action === "register") {
-            await addSystem(name, id);
+            await addSystem({id, name});
         }
 
         if (action === "update") {
-            await updateSystem(name, id);
+            await updateSystem({id, name});
         }
-
-        await addSystem({id, name});
 
         const updatedList = await getSystemData()
         systemRenderData(updatedList)
