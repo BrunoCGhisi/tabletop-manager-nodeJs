@@ -1,4 +1,5 @@
 const System = require("../models/System");
+const {getSystemData} = require("../../../front-end/js/services");
 
 class SystemRepository {
     constructor(){
@@ -12,18 +13,25 @@ class SystemRepository {
 
     getSystems(){ return this.systems; }
 
-    addSystem(system){ this.systems.push(system); }
+    addSystem(system){
+        const list = this.getSystems()
+        const verify = list.some(s => s.id === system.id)
+        if (!verify){
+            this.systems.push(system);
+        }
+        else{
+            throw new Error(`Id: ${system.id} already exist!`);
+        }
+    }
 
     alterSystem(id, name){
         const system = this.systems.find(s => s.id === id);
         if (!system) {
             throw new Error(`${id} not found`);
         }
-
         system.name = name;
         return system;
     }
-
 }
 
 module.exports = new SystemRepository();

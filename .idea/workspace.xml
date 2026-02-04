@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="back end structure" />
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end bug correction&#10;- Update system now working&#10;- It's because only was addSystems out of the method , ID/NAME was in the wrong order and without { } in the paramethers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,8 +152,7 @@
       <workItem from="1769435402597" duration="3000" />
       <workItem from="1769516443631" duration="7391000" />
       <workItem from="1769606225046" duration="2850000" />
-      <workItem from="1770212018720" duration="614000" />
-      <workItem from="1770213387049" duration="1626000" />
+      <workItem from="1770212018720" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -280,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769525142224</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="front end bug correction&#10;- Update system now working&#10;- It's because only was addSystems out of the method , ID/NAME was in the wrong order and without { } in the paramethers">
+      <option name="closed" value="true" />
+      <created>1770215889341</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770215889341</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +335,7 @@
     <MESSAGE value="Front end POST AddSystem:&#10;- systemHandler.js form add&#10;- systemService.js function Add" />
     <MESSAGE value="Front end &amp; back end POST &#10;Back end:&#10;- System controller bug correction&#10;- New console and verification&#10;Front-end:&#10;- Handler bug correction. Form name" />
     <MESSAGE value="back end structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="back end structure" />
+    <MESSAGE value="front end bug correction&#10;- Update system now working&#10;- It's because only was addSystems out of the method , ID/NAME was in the wrong order and without { } in the paramethers" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end bug correction&#10;- Update system now working&#10;- It's because only was addSystems out of the method , ID/NAME was in the wrong order and without { } in the paramethers" />
   </component>
 </project>
