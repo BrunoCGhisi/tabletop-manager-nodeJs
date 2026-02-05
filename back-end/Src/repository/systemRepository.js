@@ -1,5 +1,4 @@
 const System = require("../models/System");
-const {getSystemData} = require("../../../front-end/js/services");
 
 class SystemRepository {
     constructor(){
