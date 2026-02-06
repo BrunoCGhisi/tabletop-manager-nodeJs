@@ -20,6 +20,16 @@ class PlayerRepository {
         this.players.push(player);
     }
 
+    alterPlayer(id, name){
+        let idNumber = Number(id);
+        const player = this.players.find(p => p.id === idNumber);
+        if (!player) {
+            throw new Error(`${id} not found`);
+        }
+        player.name = name;
+        return player;
+    }
+
 }
 
 module.exports = new PlayerRepository();
