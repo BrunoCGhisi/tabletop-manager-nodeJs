@@ -1,4 +1,4 @@
-import { addPlayer, getPlayerData } from '../services';
+import {addPlayer, getSystemData, updatePlayer} from '../services';
 import { playerRenderData } from '../renders';
 
 export function formPlayerHandler()  {
@@ -8,16 +8,26 @@ export function formPlayerHandler()  {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
 
+        const action = e.submitter.dataset.action;
         const id = document.getElementById('player-id').value.trim();
         const name = document.getElementById('player-name').value.trim();
 
-        if (!id || !name) return;
+        try{
+            if (action === 'register') {
+                if (!name) throw new Error("Nome é obrigatório");
+                await addPlayer({name});
+            }
 
-        await addPlayer({ id, name });
-
-        const updatedList = await getPlayerData();
-        playerRenderData(updatedList);
-
-        form.reset();
+            if (action === 'update') {
+                if (!id || !name) throw new Error("Id e nome são obrigatórios");
+                await updatePlayer({id, name});
+            }
+            const updatedList = await getSystemData()
+            playerRenderData(updatedList)
+            form.reset();
+        }
+        catch (err) {
+            alert(err.message);
+        }
     });
 }

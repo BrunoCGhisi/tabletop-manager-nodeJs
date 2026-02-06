@@ -18,7 +18,7 @@ export async function addPlayer(player){
     const response = await fetch(url_api, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(system)
+        body: JSON.stringify(player)
     })
     if (!response.ok) {
         const error = await response.json();
@@ -31,7 +31,7 @@ export async function updatePlayer(player){
     const response = await fetch(url_api, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(system)
+        body: JSON.stringify(player)
     })
     if (!response.ok) {
         const error = await response.json();
