@@ -16,7 +16,6 @@ class SystemRepository {
         const lastId = this.systems.length;
         system.id = (lastId + 1)
         this.systems.push(system);
-
     }
 
     alterSystem(id, name){
