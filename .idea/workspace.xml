@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end player delete method&#10;- repository backend RETURN bug adjust&#10;- handler front &#10;- service front">
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end System delete method&#10;- handler&#10;- service&#10;- index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/routes/systemRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/routes/systemRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +156,7 @@
       <workItem from="1769606225046" duration="2850000" />
       <workItem from="1770212018720" duration="12448000" />
       <workItem from="1770302201256" duration="695000" />
-      <workItem from="1770380540255" duration="10800000" />
+      <workItem from="1770380540255" duration="11624000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -379,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770402343018</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="front end System delete method&#10;- handler&#10;- service&#10;- index">
+      <option name="closed" value="true" />
+      <created>1770403749544</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1770403749544</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +420,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="front &amp; back end system add&#10;- to adjust" />
     <MESSAGE value="front exhibition bug correction&#10;- With 2 promises happening in the same fetch, bug appears.&#10;- Use promise.all&#10;- using library for index of Renders and Services. Simplifying the imports" />
     <MESSAGE value="transitioning to NODE.js!" />
     <MESSAGE value="Node Hello World!&#10;- insert again back folder&#10;- init noe.js" />
@@ -434,6 +444,7 @@
     <MESSAGE value="~to start DELETE button~" />
     <MESSAGE value="back end player delete method" />
     <MESSAGE value="front end player delete method&#10;- repository backend RETURN bug adjust&#10;- handler front &#10;- service front" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end player delete method&#10;- repository backend RETURN bug adjust&#10;- handler front &#10;- service front" />
+    <MESSAGE value="front end System delete method&#10;- handler&#10;- service&#10;- index" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end System delete method&#10;- handler&#10;- service&#10;- index" />
   </component>
 </project>

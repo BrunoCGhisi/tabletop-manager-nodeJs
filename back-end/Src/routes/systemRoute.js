@@ -21,4 +21,10 @@ router.put('/',(
     SystemController.updateSystem(req, res);
 });
 
+router.delete('/',(
+    req,
+    res) => {
+    SystemController.deleteSystem(req, res);
+});
+
 module.exports = router;

@@ -27,6 +27,15 @@ class SystemRepository {
         system.name = name;
         return system;
     }
+
+    removeSystem(id){
+        let idNumber = Number(id);
+        const index = this.systems.findIndex(s => s.id === idNumber);
+        if (index === -1) {
+            throw new Error(`${id} not found`);
+        }
+        return this.systems.splice(index, 1);
+    }
 }
 
 module.exports = new SystemRepository();

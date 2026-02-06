@@ -32,6 +32,21 @@ class SystemController {
             res.status(404).json({ error: error.message });
         }
     }
+
+    deleteSystem(req, res) {
+        const { id } = req.body;
+
+        if (!id) {
+            return res.status(400).json({ error: 'Id é obrigatório' });
+        }
+
+        try {
+            const updatedSystem = SystemRepository.removeSystem(id);
+            res.json(updatedSystem);
+        } catch (error) {
+            res.status(404).json({ error: error.message });
+        }
+    }
 }
 
 module.exports = new SystemController();
