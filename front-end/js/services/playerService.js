@@ -15,9 +15,27 @@ export async function getPlayerData() {
 }
 
 export async function addPlayer(player){
-    await fetch(url_api, {
+    const response = await fetch(url_api, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(player)
-    });
+        body: JSON.stringify(system)
+    })
+    if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error);
+    }
+    return response.json();
+}
+
+export async function updatePlayer(player){
+    const response = await fetch(url_api, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(system)
+    })
+    if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error);
+    }
+    return response.json();
 }
