@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="back end and front adjust:&#10;- post without ID.&#10;- Automatically insert IDs&#10;- Update working with IDs&#10;- to init Player alterations">
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="back end playerRepository&#10;- alterPlayer method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/playerRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/playerRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/repository/systemRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/controllers/playerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/controllers/playerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/controllers/systemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/Src/routes/playerRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/routes/playerRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +156,7 @@
       <workItem from="1769606225046" duration="2850000" />
       <workItem from="1770212018720" duration="12448000" />
       <workItem from="1770302201256" duration="695000" />
-      <workItem from="1770380540255" duration="1696000" />
+      <workItem from="1770380540255" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -309,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770232768402</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="back end playerRepository&#10;- addplayer method">
+      <option name="closed" value="true" />
+      <created>1770387497012</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1770387497012</updated>
+    </task>
+    <task id="LOCAL-00021" summary="back end playerRepository&#10;- alterPlayer method">
+      <option name="closed" value="true" />
+      <created>1770387617682</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1770387617682</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +374,8 @@
     <MESSAGE value="front end bug correction&#10;- Update system now working&#10;- It's because only was addSystems out of the method , ID/NAME was in the wrong order and without { } in the paramethers" />
     <MESSAGE value="back end adjust:&#10;- doesn't accept two equals id!&#10;- prevent in systemRepository to this happens" />
     <MESSAGE value="back end and front adjust:&#10;- post without ID.&#10;- Automatically insert IDs&#10;- Update working with IDs&#10;- to init Player alterations" />
-    <option name="LAST_COMMIT_MESSAGE" value="back end and front adjust:&#10;- post without ID.&#10;- Automatically insert IDs&#10;- Update working with IDs&#10;- to init Player alterations" />
+    <MESSAGE value="back end playerRepository&#10;- addplayer method" />
+    <MESSAGE value="back end playerRepository&#10;- alterPlayer method" />
+    <option name="LAST_COMMIT_MESSAGE" value="back end playerRepository&#10;- alterPlayer method" />
   </component>
 </project>

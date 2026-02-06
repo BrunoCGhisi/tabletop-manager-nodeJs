@@ -15,4 +15,10 @@ router.post('/', (
     PlayerController.addPlayer(req, res);
 });
 
+router.put('/', (
+    req,
+    res) => {
+    PlayerController.updatePlayer(req, res);
+});
+
 module.exports = router;
