@@ -40,11 +40,13 @@
         <div class="main-content">
             <form id="registerPlayer">
                 <div class="main-content-form">
-                    <input type="text" id="player-id" placeholder="Id">
+                    <input class="main-content-form-input" type="text" id="player-id" placeholder="Id">
                     <input type="text" id="player-name" placeholder="Name">
-                    <button type="submit" data-action="register"> Register </button>
-                    <button type="submit" data-action="update"> Update </button>
-                    <button type="submit" data-action="delete"> Delete </button>
+                    <button class="register" type="submit" data-action="register"> Register </button>
+                    <div class="main-content-form.row">
+                        <button class="update" type="submit" data-action="update"> Update </button>
+                        <button class="delete" type="submit" data-action="delete"> Delete </button>
+                    </div>
 
                 </div>
             </form>
@@ -68,9 +70,12 @@
                 <div class="main-content-form">
                     <input type="text" id="system-id" placeholder="Id">
                     <input type="text" id="system-name" placeholder="System">
-                    <button type="submit" data-action="register"> Register </button>
-                    <button type="submit" data-action="update"> Update </button>
-                    <button type="submit" data-action="delete"> Delete </button>
+                    <button class="register" type="submit" data-action="register"> Register </button>
+                    <div class="main-content-form.row">
+                        <button class="update" type="submit" data-action="update"> Update </button>
+                        <button class="delete" type="submit" data-action="delete"> Delete </button>
+                    </div>
+
                 </div>
             </form>
         </div>
