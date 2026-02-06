@@ -1,4 +1,4 @@
-import {addSystem, getSystemData, updateSystem} from "../services";
+import {addSystem, deleteSystem, getSystemData, updateSystem} from "../services";
 import {systemRenderData} from "../renders";
 
 export function formSystemHandler() {
@@ -24,8 +24,8 @@ export function formSystemHandler() {
             }
 
             if (action === "delete") {
-                if (!id || !name) throw new Error("Id é obrigatório");
-                await updateSystem({id});
+                if (!id) throw new Error("Id é obrigatório");
+                await deleteSystem({id});
             }
 
             const updatedList = await getSystemData()
