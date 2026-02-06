@@ -1,6 +1,5 @@
 const PlayerRepository = require('../repository/playerRepository');
 const Player = require('../models/player');
-const SystemRepository = require("../repository/systemRepository");
 
 class PlayerController {
     getPlayers(req, res) {
@@ -9,7 +8,6 @@ class PlayerController {
 
     addPlayer(req, res) {
         const { name } = req.body;
-
         if (!name) {
             return res.status(400).json({ error: 'Nome são obrigatórios' });
         }
@@ -26,14 +24,12 @@ class PlayerController {
         }
 
         try {
-            const updatedSystem = SystemRepository.alterSystem(id, name);
-            res.json(updatedSystem);
+            const updatedPlayer = PlayerRepository.alterPlayer(id, name);
+            res.json(updatedPlayer);
         } catch (error) {
             res.status(404).json({ error: error.message });
         }
     }
-
-
 }
 
 module.exports = new PlayerController();

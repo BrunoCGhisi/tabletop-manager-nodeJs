@@ -1,4 +1,4 @@
-import {addPlayer, getSystemData, updatePlayer} from '../services';
+import {addPlayer, getPlayerData, getSystemData, updatePlayer} from '../services';
 import { playerRenderData } from '../renders';
 
 export function formPlayerHandler()  {
@@ -22,7 +22,7 @@ export function formPlayerHandler()  {
                 if (!id || !name) throw new Error("Id e nome são obrigatórios");
                 await updatePlayer({id, name});
             }
-            const updatedList = await getSystemData()
+            const updatedList = await getPlayerData()
             playerRenderData(updatedList)
             form.reset();
         }
