@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end player adjust&#10;- handlerEdit&#10;- adjust parameter in playerService">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/Src/controllers/playerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/Src/controllers/playerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/js/services/systemService.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/services/systemService.js" afterDir="false" />
-    </list>
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end bug render correction&#10;- imports and methods calls right now" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +151,7 @@
       <workItem from="1769606225046" duration="2850000" />
       <workItem from="1770212018720" duration="12448000" />
       <workItem from="1770302201256" duration="695000" />
-      <workItem from="1770380540255" duration="6902000" />
+      <workItem from="1770380540255" duration="7324000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -350,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770390196361</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="front end bug render correction&#10;- imports and methods calls right now">
+      <option name="closed" value="true" />
+      <created>1770398039805</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1770398039805</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +406,7 @@
     <MESSAGE value="back end player adjust&#10;- addPlayer Adjust&#10;- alterPlayer Implemation" />
     <MESSAGE value="front end player adjust&#10;- systemService add error response&#10;- playerService add alter function" />
     <MESSAGE value="front end player adjust&#10;- handlerEdit&#10;- adjust parameter in playerService" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end player adjust&#10;- handlerEdit&#10;- adjust parameter in playerService" />
+    <MESSAGE value="front end bug render correction&#10;- imports and methods calls right now" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end bug render correction&#10;- imports and methods calls right now" />
   </component>
 </project>
