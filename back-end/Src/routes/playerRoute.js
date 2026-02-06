@@ -21,4 +21,10 @@ router.put('/', (
     PlayerController.updatePlayer(req, res);
 });
 
+router.delete('/', (
+    req,
+    res) => {
+    PlayerController.deletePlayer(req, res);
+});
+
 module.exports = router;

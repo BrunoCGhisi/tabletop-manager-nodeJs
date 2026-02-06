@@ -26,8 +26,23 @@ class PlayerRepository {
         if (!player) {
             throw new Error(`${id} not found`);
         }
-        player.name = name;
-        return player;
+        else{
+            player.name = name;
+            return player;
+        }
+
+    }
+
+    removePlayer(id){
+        let idNumber = Number(id);
+        const player = this.players.find(p => p.id === idNumber);
+        const index = this.players.indexOf(player);
+        if (!player) {
+            throw new Error(`${id} not found`);
+        }
+
+        this.players.splice(index, 1)
+
     }
 
 }

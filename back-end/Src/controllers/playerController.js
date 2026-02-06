@@ -30,6 +30,20 @@ class PlayerController {
             res.status(404).json({ error: error.message });
         }
     }
+
+    deletePlayer(req, res) {
+        const { id } = req.body;
+        if (!id) {
+            return res.status(400).json({ error: 'Id é obrigatório' });
+        }
+
+        try {
+            const updatedPlayer = PlayerRepository.removePlayer(id);
+            res.json(updatedPlayer);
+        } catch (error) {
+            res.status(404).json({ error: error.message });
+        }
+    }
 }
 
 module.exports = new PlayerController();
