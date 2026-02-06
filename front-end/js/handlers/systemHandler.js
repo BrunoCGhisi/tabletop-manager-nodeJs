@@ -22,6 +22,12 @@ export function formSystemHandler() {
                 if (!id || !name) throw new Error("Id e nome são obrigatórios");
                 await updateSystem({id, name});
             }
+
+            if (action === "delete") {
+                if (!id || !name) throw new Error("Id é obrigatório");
+                await updateSystem({id});
+            }
+
             const updatedList = await getSystemData()
             systemRenderData(updatedList)
             form.reset();
