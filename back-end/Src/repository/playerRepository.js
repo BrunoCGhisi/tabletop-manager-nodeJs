@@ -35,14 +35,12 @@ class PlayerRepository {
 
     removePlayer(id){
         let idNumber = Number(id);
-        const player = this.players.find(p => p.id === idNumber);
-        const index = this.players.indexOf(player);
-        if (!player) {
+        const index = this.players.findIndex(p => p.id === idNumber);
+
+        if (index === -1) {
             throw new Error(`${id} not found`);
         }
-
-        this.players.splice(index, 1)
-
+        return this.players.splice(index, 1)
     }
 
 }

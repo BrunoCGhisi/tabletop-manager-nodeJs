@@ -39,3 +39,16 @@ export async function updatePlayer(player){
     }
     return response.json();
 }
+
+export async function deletePlayer(player){
+    const response = await fetch(url_api, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(player)
+    })
+    if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error);
+    }
+    return response.json();
+}
