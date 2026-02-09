@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    height: 10%;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-padrao), serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

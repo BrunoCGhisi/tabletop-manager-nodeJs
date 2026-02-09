@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    height: 5%;
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-padrao), serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #e6e6e6;
+}
