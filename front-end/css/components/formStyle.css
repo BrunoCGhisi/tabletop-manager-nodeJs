@@ -32,7 +32,15 @@
 
 .register{
     background-color: darkseagreen;
-    border: #3A4D39 solid 0.15em;
+    border: darkgreen solid 0.15em;
+}
+
+.register:hover{
+    background-color: darkolivegreen;
+}
+
+.register:active{
+    background-color: darkgreen;
 }
 
 .update{
@@ -40,7 +48,23 @@
     border: purple solid 0.15em;
 }
 
+.update:hover{
+    background-color: rebeccapurple;
+}
+
+.update:active{
+    background-color: purple;
+}
+
 .delete{
-    background-color: indianred;
+    background-color: palevioletred;
     border: darkred solid 0.15em;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.delete:active{
+    background-color: darkred;
 }
