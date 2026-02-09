@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end button style">
-      <change afterPath="$PROJECT_DIR$/front-end/css/components/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/css/components/formStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/css/components/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/css/components/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/css/components/scrollBarStyle.css" afterDir="false" />
+    <list default="true" id="a085abf6-72ef-4d00-92fa-1ba3267b8b6d" name="Changes" comment="front end syles structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/css/components/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/components/footer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +154,7 @@
       <workItem from="1769606225046" duration="2850000" />
       <workItem from="1770212018720" duration="12448000" />
       <workItem from="1770302201256" duration="695000" />
-      <workItem from="1770380540255" duration="15827000" />
+      <workItem from="1770380540255" duration="17720000" />
     </task>
     <task id="LOCAL-00001" summary="back end bug correction&#10;- System model imports&#10;- System controller">
       <option name="closed" value="true" />
@@ -434,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770638566036</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="front end syles structure">
+      <option name="closed" value="true" />
+      <created>1770639876287</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1770639876287</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="back-end system Structure&#10;*System:&#10;- Get requisition working&#10;- Routes&#10;- Repository&#10;- Model" />
     <MESSAGE value="Front end &amp; back end CORS &amp; Url adjust&#10;- class.nome -&gt; class.name&#10;- Url to new back end&#10;- Cors in back end adjust" />
     <MESSAGE value="Front end html/css adjust &#10;- new class main container&#10;- maxWidth" />
     <MESSAGE value="Front end html/css adjust &#10;- new scroll style&#10;- new border style&#10;- to add forms POST" />
@@ -489,6 +490,7 @@
     <MESSAGE value="css structure adjust" />
     <MESSAGE value="html and css adjust&#10;- buttons style&#10;- form style&#10;- input style" />
     <MESSAGE value="front end button style" />
-    <option name="LAST_COMMIT_MESSAGE" value="front end button style" />
+    <MESSAGE value="front end syles structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="front end syles structure" />
   </component>
 </project>

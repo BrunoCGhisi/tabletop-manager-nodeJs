@@ -15,7 +15,7 @@ class PlayerRepository {
     getPlayers(){ return this.players; }
 
     addPlayer(player){
-        let lastId = this.players.length
+        let lastId = this.players.at(-1).id;
         player.id = lastId + 1;
         this.players.push(player);
     }

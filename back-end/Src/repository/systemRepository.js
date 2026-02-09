@@ -13,7 +13,7 @@ class SystemRepository {
     getSystems(){ return this.systems; }
 
     addSystem(system){
-        const lastId = this.systems.length;
+        let lastId = this.systems.at(-1).id;
         system.id = (lastId + 1)
         this.systems.push(system);
     }
